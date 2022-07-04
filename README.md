@@ -14,6 +14,9 @@ Un aperçu du parcours du laser aura également été ouvert afin que vous puiss
 
 Enfin, ce gcode peut être envoyé à la machine via un programme tel que universal-gcode-sender par exemple :
 https://github.com/winder/Universal-G-Code-Sender
+(Il peut parfois être nécessaire d'exécuter avant
+$ sudo adduser $username dialout
+où $username est le nom de l'utilisateur qui enverra le gcode à la machine.)
 
 Bonne découpe et bon bidouillage !
 ## A faire sur un nouveau système : Dépendances (les commandes suivantes pour l'installation des dépendances fonctionnent sur les distributinos debian-based) :
