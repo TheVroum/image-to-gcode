@@ -1,4 +1,4 @@
-##Comment utiliser ?
+## Comment utiliser ?
 Note : le sigle dollar ($) suivi d'une ligne de commande(s) indique des commandes à lancer dans un shell. Le $ ne doit pas être inclus dans la(les) commande(s).
 
 Créer un dossier où seront générés les fichiers intermédiaires ainsi que le gcode.
@@ -16,13 +16,13 @@ Enfin, ce gcode peut être envoyé à la machine via un programme tel que univer
 https://github.com/winder/Universal-G-Code-Sender
 
 Bonne découpe et bon bidouillage !
-##A faire sur un nouveau système : Dépendances (les commandes suivantes pour l'installation des dépendances fonctionnent sur les distributinos debian-based) :
-###Potrace doit être installé : 
+## A faire sur un nouveau système : Dépendances (les commandes suivantes pour l'installation des dépendances fonctionnent sur les distributinos debian-based) :
+### Potrace doit être installé : 
 $ sudo apt update && sudo apt upgrade && sudo apt install potrace
-###Eog doit être installé :
+### Eog doit être installé :
 $ sudo apt update && sudo apt upgrade && sudo apt install eog
-###Convert doit être installé (imagemagick) :
+### Convert doit être installé (imagemagick) :
 $ sudo apt update && sudo apt upgrade && sudo apt install imagemagick
-###Ajouter au PATH le répertoire contenant le script cut.sh (est-ce la bonne manière de faire ?) :
+### Ajouter au PATH le répertoire contenant le script cut.sh (est-ce la bonne manière de faire ?) :
 Se placer dans le répertoire à l'aide cd, puis exécuter :
-echo '' > ~/.profile && echo 'PATH=$PATH:' >> ~/.profile
+$ echo '' > ~/.profile && echo 'PATH=$PATH:' >> ~/.profile
